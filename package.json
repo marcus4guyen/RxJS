@@ -1,0 +1,30 @@
+{
+  "name": "reactive-programming",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "webpack-dev-server --watch --inline",
+    "postinstall": "typings install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcus4guyen/RxJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcus4guyen/RxJS/issues"
+  },
+  "homepage": "https://github.com/marcus4guyen/RxJS#readme",
+  "dependencies": {
+    "rxjs": "^5.5.7"
+  },
+  "devDependencies": {
+    "ts-loader": "^4.1.0",
+    "typescript": "^2.7.2",
+    "typings": "^2.1.1",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.12",
+    "webpack-dev-server": "^3.1.1"
+  }
+}
